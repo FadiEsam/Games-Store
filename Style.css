@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #ddddfc;
+}
+header {
+  height: 80px;
+  width: 100%;
+  top: 0;
+  background: #0080ff;
+  position: fixed;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+.avatar img {
+  height: 70px;
+  border-radius: 50%;
+  margin: 0 0 0 50px;
+}
+li , .btn {
+  display: inline;
+  background: #02fdfd;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 99px;
+  font-size: 20px;
+  border: none;
+}
+li:hover , .btn:hover{
+  background: darkblue;
+}
+li a {
+  text-decoration: none;
+  color: black;
+}
+li:hover a ,.btn:hover{
+  color: white;
+}
+main {
+  width: 100%;
+  height: 70vh;
+  margin-top: 80px;
+  padding: 100px;
+  background: blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.signup-main {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
+  padding: 40px 20px;
+  background: #ddddfc;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: auto;
+}
+
+.sign_up {
+  width: 700px;
+  max-width: 100%;
+  background: #e8e8e8;
+  border: 3px solid #5050e9;
+  padding: 30px;
+  margin: 0 auto;
+}
+.left_side img {
+  width: 300px;
+}
+.right_side {
+  width: 70%;
+  padding: 20px;
+}
+.right_side h1{
+  font-size: 50px;
+  color: white;
+}
+.right_side p{
+  font-size: 25px;
+  color: white;
+  margin-top: 20px;
+}
+.products{
+  width: 100%;
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.game {
+  width: 400px;
+  height: 330px;
+  border: 5px solid #5b57fb;
+  background: #5b57fb;
+  margin-bottom: 30px
+}
+.game img {
+  width: 390px;
+  height: 210px;
+  /* max-height: 200px; */
+}
+.game h3{
+  width: 100%;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.info{
+  width: calc(100% - 20px);
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0px;
+}
+.info span{
+  font-size: 27px;
+  font-weight: bold;
+}
+.sign_in {
+  height: fit-content;
+  width: 450px;
+  background: #e8e8e8;
+  border: 3px solid #5050e9;
+  padding: 30px;
+  /* border-radius: 20px; */
+}
+.sign_in fieldset {
+  padding: 30px;
+}
+.sign_in legend {
+  font-size: 25px;
+  color: #5050e9;
+  font-weight: 600;
+}
+.sign_in label {
+  font-size: 20px;
+}
+.sign_in input {
+  font-size: 20px;
+  width: 100%;
+  color: #4a4a4a;
+}
+.sign_in input[type="button"] {
+  width: 100%;
+  height: 40px;
+  background: #5050e9;
+  color: white;
+  font-weight: 500;
+  /* border-radius: 50px; */
+}
+input[type="button"]:hover {
+  background: #00ae00;
+}
+.sign_in a {
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  color: #5050e9;
+}
+.sign_up {
+  width: 700px;
+  max-width: 100%;
+  background: #e8e8e8;
+  border: 3px solid #5050e9;
+  padding: 30px;
+  margin: 0 auto;
+}
+.sign_up fieldset {
+  padding: 30px;
+}
+.sign_up legend {
+  padding: 0 5px;
+  font-size: 30px;
+  color: #5050e9;
+  font-weight: 600;
+}
+.sign_up .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+.sign_up .left_bar {
+  width: 45%;
+}
+.sign_up .right_bar {
+  width: 55%;
+}
+.sign_up p {
+  font-size: 22px;
+  color: #5050e9;
+  font-weight: 600;
+  margin: 10px 0 15px;
+}
+.sign_up label {
+  display: block;
+  height: 50px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.sign_up .right_bar input {
+  display: block;
+  width: 100%;
+  height: 35px;
+  margin: 0 0 20px;
+  padding: 5px 15px;
+  font-size: 20px;
+  color: #4a4a4a;
+  border: 1px solid #5050e9;
+  background: white;
+}
+.sign_up .form_space {
+  height: 40px;
+}
+.sign_up .expiration {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+.sign_up .expiration select {
+  width: 50%;
+  height: 35px;
+  padding: 5px;
+  font-size: 20px;
+  color: #4a4a4a;
+  border: 1px solid #5050e9;
+  background: white;
+}
+.sign_up .footer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+}
+.sign_up .footer input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  background: #5050e9;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.sign_up .footer input[type="submit"]:hover {
+  background: #00ae00;
+}
